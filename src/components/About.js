@@ -11,7 +11,7 @@ const About = () => {
           <Col lg={6}>
             <h2 className="fs-2 fw-light text-warning">About Us</h2>
             <p className="mb-3 text-secondary">
-              Founded in 1945, Music Edu. has remained one of the most
+              Founded in 1945, Music Academy has remained one of the most
               distinguished institutes for Contemporary Music. The college
               offers you both graduate and undergraduate degrees. The college
               also provides 12-week online courses in music. In this institute,

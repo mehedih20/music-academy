@@ -17,7 +17,7 @@ const Service = () => {
       <Title title={title} />
       <Container>
         <Row className="py-5">
-          <Col className="d-flex justify-content-end">
+          <Col className="d-flex justify-content-end align-items-start">
             <img src={img} alt={name} className="img-fluid" />
           </Col>
           <Col>
@@ -31,7 +31,7 @@ const Service = () => {
             </p>
             <p className="lead">ID: {id}</p>
             <Button variant="danger" className="mb-3">
-              Buy now!
+              Start learning
             </Button>
             <br />
             <Button onClick={() => history.push("/services")} variant="primary">

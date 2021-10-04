@@ -41,7 +41,7 @@ const Hero = () => {
           Start learning right now!
         </h4>
         <Button onClick={handleClick} variant="warning">
-          Buy Courses
+          Explore Courses
         </Button>
       </Container>
     </section>
@@ -62,9 +62,9 @@ const Welcome = () => {
             Welcome
           </h2>
           <p className="mb-3 lead text-secondary">
-            Music Edu. offers comprehensive musicianship through active learning
-            for children and adults. Our music educators are highly qualified
-            and share a love of teaching. Our curriculum offers group
+            Music Academy offers comprehensive musicianship through active
+            learning for children and adults. Our music educators are highly
+            qualified and share a love of teaching. Our curriculum offers group
             experiences, private lessons, ensemble participation, theater, and
             camps. We believe that learning music can be fun, and we believe in
             the effectiveness of learning in groups.
