@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Piano",
+    "price": 150,
+    "rating": 4.8,
+    "img": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGlhbm98ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+    "details": "Want to learn to play piano? Our Piano Lessons are open to everyone."
+  },
+  {
+    "id": 2,
+    "name": "Guitar",
+    "price": 120,
+    "rating": 4.7,
+    "img": "https://static.toiimg.com/thumb/msid-80009581,width-1200,height-900,resizemode-4/.jpg",
+    "details": "Learn to play the world’s popular instrument with our guitar classes."
+  },
+  {
+    "id": 3,
+    "name": "Violin",
+    "price": 125,
+    "rating": 4.8,
+    "img": "https://interlude-cdn-blob-prod.azureedge.net/interlude-blob-storage-prod/2021/06/classical-music-for-violin.jpg",
+    "details": "Its a great choice to learn playing Violin,lessons are open to everyone."
+  },
+  {
+    "id": 4,
+    "name": "Drums",
+    "price": 250,
+    "rating": 4.9,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/2/2a/DrumMozartRegiment.jpg",
+    "details": "Don't dream only to be a drummer,our lessons make you achieve your dream."
+  },
+  {
+    "id": 5,
+    "name": "Flute",
+    "price": 175,
+    "rating": 4.7,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flute_with_musicial_notes.jpg/280px-Flute_with_musicial_notes.jpg",
+    "details": "Want to learn to play flutes? Our Lessons are open to everyone."
+  },
+  {
+    "id": 6,
+    "name": "Vocal",
+    "price": 220,
+    "rating": 4.6,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Shure_mikrofon_55S.jpg",
+    "details": "Musical Edu offers a wide variety of vocal classes for all ages and skills."
+  },
+  {
+    "id": 7,
+    "name": "Trumpet",
+    "price": 135,
+    "rating": 4.8,
+    "img": "https://thumbs.dreamstime.com/b/splendid-jazz-trumpet-s-wooden-table-s-old-jazz-trumpet-player-129390547.jpg",
+    "details": "We offer extensive trumpet learning program at our music school."
+  },
+  {
+    "id": 8,
+    "name": "DJ",
+    "price": 100,
+    "rating": 4.9,
+    "img": "https://images.pexels.com/photos/860707/pexels-photo-860707.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "details": "DJ music class provides in-depth knowledge and training for aspiring DJs."
+  },
+  {
+    "id": 9,
+    "name": "Hearing",
+    "price": 90,
+    "rating": 4.5,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo3M5j_KaoyX7fzubqwsyKNeMK5nlrWVglrA&usqp=CAU",
+    "details": "Hearing curriculum at our School develops students’ aural skills."
+  }
+]

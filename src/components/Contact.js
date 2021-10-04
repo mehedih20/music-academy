@@ -7,30 +7,10 @@ import {
   Row,
   Button,
 } from "react-bootstrap";
-import {
-  IoMailOutline,
-  IoLocationOutline,
-  IoCallOutline,
-} from "react-icons/io5";
+
 import Title from "./Title";
 
-const contactData = [
-  {
-    id: 1,
-    icon: <IoCallOutline className="text-warning fs-4 mb-2" />,
-    text: "1-800-1234-678",
-  },
-  {
-    id: 2,
-    icon: <IoMailOutline className="text-warning fs-4 mb-2" />,
-    text: "musicedu@music.com",
-  },
-  {
-    id: 3,
-    icon: <IoLocationOutline className="text-warning fs-4 mb-2" />,
-    text: "San Diego, USA",
-  },
-];
+import { contactData } from "../data";
 
 const Contact = () => {
   return (

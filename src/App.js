@@ -8,6 +8,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
 import NotFound from "./components/NotFound";
+import Service from "./components/Service";
 
 function App() {
   return (
@@ -24,8 +25,11 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/services">
+          <Route exact path="/services">
             <Services />
+          </Route>
+          <Route path="/services/course/:name">
+            <Service />
           </Route>
           <Route path="*">
             <NotFound />

@@ -1,36 +1,14 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-
-const navData = [
-  {
-    id: 1,
-    url: "/",
-    name: "Home",
-  },
-  {
-    id: 2,
-    url: "/about",
-    name: "About",
-  },
-  {
-    id: 3,
-    url: "/services",
-    name: "Services",
-  },
-  {
-    id: 4,
-    url: "/contact",
-    name: "Contact",
-  },
-];
+import { navData } from "../data";
 
 const Header = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
+      <Navbar variant="dark" bg="dark" expand="lg" className="py-3 edu-nav">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand>
             <img
               alt=""
               src="/logo.png"
@@ -51,7 +29,12 @@ const Header = () => {
               {navData.map((nav) => {
                 const { id, url, name } = nav;
                 return (
-                  <NavLink className="nav-link" to={url} key={id}>
+                  <NavLink
+                    activeClassName="selected"
+                    className="nav-link"
+                    to={url}
+                    key={id}
+                  >
                     {name}
                   </NavLink>
                 );
